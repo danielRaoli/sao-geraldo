@@ -50,7 +50,7 @@ export default function AppSuper() {
                             className="h-auto"          
                             src="/googleplay.webp" 
                             alt="Disponível no Google Play" 
-                            height={0} 
+                            height={48} 
                             width={150}     
                         />
                     </a>
@@ -65,7 +65,7 @@ export default function AppSuper() {
                             className="h-auto" 
                             src="/appstore.webp" 
                             alt="Disponível na App Store" 
-                            height={0} 
+                            height={48} 
                             width={150} 
                         />
                     </a>
@@ -107,7 +107,7 @@ export default function AppSuper() {
                     id="app-download-links"
                 >
                     <a 
-                        href="https://play.google.com/store/apps/details?id=com.saogeraldo.saogeraldo" 
+                        href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.saogeraldo&hl=pt_BR" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded transition-transform hover:scale-105"
@@ -115,14 +115,14 @@ export default function AppSuper() {
                     >
                         <Image 
                             className="h-auto" 
-                            src="/googleplay.svg" 
+                            src="/googleplay.webp" 
                             alt="Disponível no Google Play" 
-                            height={0} 
+                            height={48} 
                             width={150} 
                         />
                     </a>
                     <a 
-                        href="https://apps.apple.com/app/super-sao-geraldo/id-placeholder" 
+                        href="https://apps.apple.com/br/app/super-s%C3%A3o-geraldo/id1552717070" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded transition-transform hover:scale-105"
@@ -132,7 +132,7 @@ export default function AppSuper() {
                             className="h-auto" 
                             src="/appstore.webp" 
                             alt="Disponível na App Store" 
-                            height={0} 
+                            height={48} 
                             width={150} 
                         />
                     </a>

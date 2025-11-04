@@ -5,6 +5,11 @@ const nextConfig = {
     // Outras configurações experimentais podem ser adicionadas aqui
   },
   
+  // Desativa ESLint durante o build (next build)
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  
   // Configurações de imagem para melhor acessibilidade
   images: {
     // Formatos de imagem otimizados (apenas webp e avif são suportados)

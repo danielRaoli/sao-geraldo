@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://saogeraldo.com.br/sitemap.xml
+
+# Disallow admin areas (se houver)
+Disallow: /admin/
+Disallow: /api/

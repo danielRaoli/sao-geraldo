@@ -17,7 +17,15 @@ const stores = [
             wifi: true,
             carregarCelular: false
         },
-        iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.19194565406!2d-39.0247460063382!3d-4.973214670047445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb85d7fc80d%3A0x38e121c82377f4bc!2sS%C3%A3o%20Geraldo!5e0!3m2!1spt-BR!2sbr!4v1760283229061!5m2!1spt-BR!2sbr" width="600" className="w-full" height="450" loading="lazy" ></iframe>
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.19194565406!2d-39.0247460063382!3d-4.973214670047445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb85d7fc80d%3A0x38e121c82377f4bc!2sS%C3%A3o%20Geraldo!5e0!3m2!1spt-BR!2sbr!4v1760283229061!5m2!1spt-BR!2sbr"
+            width="600"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Matriz São Geraldo"
+            aria-label="Mapa mostrando a localização da Loja Matriz"
+        />
     },
     {
         name: "Alto São Francisco",
@@ -33,7 +41,15 @@ const stores = [
             wifi: true,
             carregarCelular: false
         },
-        iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.19194565406!2d-39.0247460063382!3d-4.973214670047445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb85d7fc80d%3A0x38e121c82377f4bc!2sS%C3%A3o%20Geraldo!5e0!3m2!1spt-BR!2sbr!4v1760283229061!5m2!1spt-BR!2sbr" width="600" className="w-full" height="450" loading="lazy" ></iframe>
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.8251710889995!2d-39.01003430000001!3d-4.968709400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fbfb450d2a9%3A0x89560f9b557af8fd!2sRua%20Epit%C3%A1cio%20Pessoa%2C%20783%20-%20Iraj%C3%A1%2C%20Quixad%C3%A1%20-%20CE%2C%2063908-065!5e0!3m2!1spt-BR!2sbr!4v1762128393947!5m2!1spt-BR!2sbr"
+            width="600"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Alto São Francisco"
+            aria-label="Mapa mostrando a localização da Loja Alto São Francisco"
+        />
     },
     {
         name: "Campo Novo",
@@ -49,7 +65,15 @@ const stores = [
             wifi: true,
             carregarCelular: false
         },
-        iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.19194565406!2d-39.0247460063382!3d-4.973214670047445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb85d7fc80d%3A0x38e121c82377f4bc!2sS%C3%A3o%20Geraldo!5e0!3m2!1spt-BR!2sbr!4v1760283229061!5m2!1spt-BR!2sbr" width="600" className="w-full" height="450" loading="lazy" ></iframe>
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.7428872534974!2d-39.02144592525919!3d-4.982333694993935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fda00f2f597%3A0x95b9a38bfbfec428!2sAv.%20Presidente%20Vargas%2C%20740%20-%20Campo%20Novo%2C%20Quixad%C3%A1%20-%20CE%2C%2063900-000!5e0!3m2!1spt-BR!2sbr!4v1762128502200!5m2!1spt-BR!2sbr"
+            width="600"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Campo Novo"
+            aria-label="Mapa mostrando a localização da Loja Campo Novo"
+        />
     },
     {
         name: "Banabuiú",
@@ -64,7 +88,15 @@ const stores = [
             padaria: true,
             wifi: true,
             carregarCelular: false
-        }
+        },
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.71309790132!2d-38.92309172525674!3d-5.3073864946709675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bc6b940fe1cec5%3A0x6d2eb7f61f73a4d1!2sR.%20Arrojado%20Lisboa%2C%20142%20-%20Centro%2C%20Banabui%C3%BA%20-%20CE%2C%2063960-000!5e0!3m2!1spt-BR!2sbr!4v1762128536452!5m2!1spt-BR!2sbr"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Banabuiú"
+            aria-label="Mapa mostrando a localização da Loja Banabuiú"
+        />
     },
     {
         name: "Atacarejo Herval",
@@ -79,7 +111,15 @@ const stores = [
             padaria: true,
             wifi: true,
             carregarCelular: false
-        }
+        },
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.837123874223!2d-39.01921432525933!3d-4.966727195009473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb99c6d8f2d%3A0x7e7c537421caf76a!2sR.%20Francisco%20de%20Assis%20Brasileiro%2C%2048%20-%20Herval%2C%20Quixad%C3%A1%20-%20CE%2C%2063900-000!5e0!3m2!1spt-BR!2sbr!4v1762128626877!5m2!1spt-BR!2sbr"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Atacarejo Herval"
+            aria-label="Mapa mostrando a localização da Loja Atacarejo Herval"
+        />
     },
     {
         name: "Quixeramobim",
@@ -94,7 +134,15 @@ const stores = [
             padaria: true,
             wifi: true,
             carregarCelular: false
-        }
+        },
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.4754459596975!2d-39.29399012525775!3d-5.187685594789837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bc34ee76f839f5%3A0x4de3121cc4af64b4!2sAv.%20Geraldo%20Bizarria%20de%20Carvalho%2C%20304%20-%20Vila%20Betania%2C%20Quixeramobim%20-%20CE%2C%2063800-000!5e0!3m2!1spt-BR!2sbr!4v1762128737610!5m2!1spt-BR!2sbr"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Quixeramobim"
+            aria-label="Mapa mostrando a localização da Loja Quixeramobim"
+        />
     },
     {
         name: "Centro 2 (Caixa)",
@@ -109,9 +157,16 @@ const stores = [
             padaria: true,
             wifi: true,
             carregarCelular: true
-        }
+        },
+        iframe: <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.824992068241!2d-39.023164822743304!3d-4.968739082134556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7be9fb83b52313b%3A0x74c9537f3b712679!2sRua%20Jos%C3%A9%20de%20Queiroz%20Pessoa%2C%201703%20-%20Centro%2C%20Quixad%C3%A1%20-%20CE%2C%2063900-000!5e0!3m2!1spt-BR!2sbr!4v1762128771860!5m2!1spt-BR!2sbr"
+            className="w-full"
+            height="450"
+            loading="lazy"
+            title="Localização da Loja Centro"
+            aria-label="Mapa mostrando a localização da Loja Centro"
+        />
     },
-
 ];
 
 export default function StoreLocation() {
@@ -145,104 +200,274 @@ export default function StoreLocation() {
         downRef.current = false;
         setDragging(false);
     };
-    return <>
-        <div className="w-full h-auto flex flex-col ">
-            <div className="w-full flex flex-col md:flex-row items-center text-start bg-gray-100 rounded-t-4xl px-4 md:px-14 py-8 h-auto">
+
+    return (
+        <section
+            className="w-full h-auto flex flex-col"
+            aria-labelledby="store-location-heading"
+            role="region"
+        >
+            {/* Skip link for keyboard navigation */}
+            <a
+                href="#store-selector"
+                className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded z-50"
+            >
+                Pular para seletor de lojas
+            </a>
+
+            <header
+                className="w-full flex flex-col md:flex-row items-center text-start bg-gray-100 rounded-t-4xl px-4 md:px-14 py-8 h-auto"
+                role="banner"
+                aria-label="Informações da loja selecionada"
+            >
                 <div className="flex-1 space-y-2 justify-start">
                     <div className="flex gap-2 items-center">
-                        <h3 className="text-2xl md:text-[48px] font-semibold text-primary  ">{store.name}</h3>
-                        <MapPin className="w-[30px] h-[30px] md:w-[52px] md:h-[52px] text-primary" />
+                        <h1
+                            id="store-location-heading"
+                            className="text-2xl md:text-[48px] font-semibold text-primary"
+                        >
+                            {store.name}
+                        </h1>
+                        <MapPin
+                            className="w-[30px] h-[30px] md:w-[52px] md:h-[52px] text-primary"
+                            aria-hidden="true"
+                        />
                     </div>
 
-                    <p className="text-sm md:text-[18px] font-medium text-primary mb-8 ">{store.endereco}</p>
-                    <div className="flex gap-2 items-center">
-                        <PhoneCall className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary" />
-                        <span className="text-sm md:text-[18px] text-black"> <span className="font-medium">Telefone:</span> {store.telefone}</span>
+                    <address className="text-sm md:text-[18px] font-medium text-primary mb-8 not-italic">
+                        {store.endereco}
+                    </address>
+
+                    <div className="space-y-2">
+                        <div className="flex gap-2 items-center">
+                            <PhoneCall
+                                className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary"
+                                aria-hidden="true"
+                            />
+                            <span className="text-sm md:text-[18px] text-black">
+                                <span className="font-medium">Telefone:</span>
+                                <a
+                                    href={`tel:${store.telefone}`}
+                                    className="hover:underline focus:underline focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+                                    aria-label={`Ligar para ${store.telefone}`}
+                                >
+                                    {store.telefone}
+                                </a>
+                            </span>
+                        </div>
+
+                        <div className="flex gap-2 items-center">
+                            <Mail
+                                className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary"
+                                aria-hidden="true"
+                            />
+                            <span className="text-sm md:text-[18px] text-black">
+                                <span className="font-medium">E-mail:</span>
+                                <a
+                                    href={`mailto:${store.email}`}
+                                    className="hover:underline focus:underline focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+                                    aria-label={`Enviar e-mail para ${store.email}`}
+                                >
+                                    {store.email}
+                                </a>
+                            </span>
+                        </div>
+
+                        <div className="flex gap-2 items-center">
+                            <Clock
+                                className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary"
+                                aria-hidden="true"
+                            />
+                            <span className="font-medium text-sm md:text-[18px] text-black">
+                                Horário de Funcionamento:
+                            </span>
+                        </div>
+
+                        <div className="px-8 mb-8" role="list" aria-label="Horários de funcionamento">
+                            <div role="listitem" className="text-sm md:text-[18px] text-black">
+                                <span className="font-medium">Segunda à Sábado:</span> das {store.horarioSemana}
+                            </div>
+                            <div role="listitem" className="text-sm md:text-[18px] text-black">
+                                <span className="font-medium">Domingo e Feriados:</span> das {store.horarioDomingoFeriado}
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex gap-2 items-center">
-                        <Mail className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary" />
-                        <span className="text-sm md:text-[18px] text-black"> <span className="font-medium">E-mail:</span> {store.email}</span>
-                    </div>
-                    <div className="flex gap-2 items-center">
-                        <Clock className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] text-primary" />
-                        <span className="font-medium text-sm md:text-[18px] text-black">Horário de Funcionamento:</span>
-                    </div>
-                    <div className="px-8 mb-8">
-                        <span className="text-sm md:text-[18px] text-black">  <span>Segunda à Sábado:</span> das {store.horarioSemana}</span><br />
-                        <span className="text-sm md:text-[18px] text-black">  <span>Domingo e Feriados:</span> das {store.horarioDomingoFeriado}</span>
-                    </div>
-                    <button onClick={() => setSelecionando(!selecionando)} className="rounded-full hidden md:block bg-primary cursor-pointer text-white py-[14px] px-[28px] text-[18px] font-medium hover:bg-primary-hover transition-all duration-300 transform hover:scale-105 ">
+
+                    <button
+                        onClick={() => setSelecionando(!selecionando)}
+                        className="rounded-full hidden md:block bg-primary cursor-pointer text-white py-[14px] px-[28px] text-[18px] font-medium hover:bg-primary-hover transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                        aria-expanded={selecionando}
+                        aria-controls="store-selector"
+                        aria-label={selecionando ? "Fechar seletor de lojas" : "Abrir seletor de lojas"}
+                    >
                         Trocar Loja
                     </button>
                 </div>
-                <div className="flex-1 items-center h-full  my-auto justify-center">
-                    <h3 className="text-2xl md:text-[36px] text-center font-bold text-primary mb-6">Serviços</h3>
-                    <div className="flex flex-wrap items-center justify-evenly gap-4">
-                        {
-                            store.servico.cafeteria && (
-                                <div className="flex flex-col items-center">
-                                    <Coffee className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary" />
-                                    <span className="text-sm md:text-[18px] text-black">Cafeteria</span>
-                                </div>
-                            )
-                        }
-                        {
-                            store.servico.acougue && (
-                                <div className="flex flex-col items-center">
-                                    <Ham className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary" />
-                                    <span className="text-sm md:text-[18px] text-black">Hambúrguer</span>
-                                </div>
-                            )
-                        }
-                        {
-                            store.servico.padaria && (
-                                <div className="flex flex-col items-center">
-                                    <Croissant className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary" />
-                                    <span className="text-sm md:text-[18px] text-black">Croissant</span>
-                                </div>
-                            )
-                        }
-                        {
-                            store.servico.wifi && (
-                                <div className="flex flex-col items-center">
-                                    <Wifi className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary" />
-                                    <span className="text-sm md:text-[18px] text-black">Wi-Fi</span>
-                                </div>
-                            )
-                        }
-                        {
-                            store.servico.carregarCelular && (
-                                <div className="flex flex-col items-center">
-                                    <BatteryCharging className="md:w-[34px] md:h-[34px] text-primary" />
-                                    <span className="text-sm md:text-[18px] text-black">Carregar Celular</span>
-                                </div>
-                            )
-                        }
-                    </div>
 
-                </div>
-                <button onClick={() => setSelecionando(!selecionando)} className="rounded-full mt-3 bg-primary md:hidden text-sm cursor-pointer text-white py-[14px] px-[28px] md:text-[18px] font-medium hover:bg-primary-hover transition-all duration-300 transform hover:scale-105 ">
+                <aside className="flex-1 items-center h-full my-auto justify-center" aria-labelledby="services-heading">
+                    <h2
+                        id="services-heading"
+                        className="text-2xl md:text-[36px] text-center font-bold text-primary mb-6"
+                    >
+                        Serviços
+                    </h2>
+                    <div
+                        className="flex flex-wrap items-center justify-evenly gap-4"
+                        role="list"
+                        aria-label="Serviços disponíveis nesta loja"
+                    >
+                        {store.servico.cafeteria && (
+                            <div className="flex flex-col items-center" role="listitem">
+                                <Coffee
+                                    className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary"
+                                    aria-hidden="true"
+                                />
+                                <span className="text-sm md:text-[18px] text-black">Cafeteria</span>
+                            </div>
+                        )}
+                        {store.servico.acougue && (
+                            <div className="flex flex-col items-center" role="listitem">
+                                <Ham
+                                    className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary"
+                                    aria-hidden="true"
+                                />
+                                <span className="text-sm md:text-[18px] text-black">Açougue</span>
+                            </div>
+                        )}
+                        {store.servico.padaria && (
+                            <div className="flex flex-col items-center" role="listitem">
+                                <Croissant
+                                    className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary"
+                                    aria-hidden="true"
+                                />
+                                <span className="text-sm md:text-[18px] text-black">Padaria</span>
+                            </div>
+                        )}
+                        {store.servico.wifi && (
+                            <div className="flex flex-col items-center" role="listitem">
+                                <Wifi
+                                    className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary"
+                                    aria-hidden="true"
+                                />
+                                <span className="text-sm md:text-[18px] text-black">Wi-Fi</span>
+                            </div>
+                        )}
+                        {store.servico.carregarCelular && (
+                            <div className="flex flex-col items-center" role="listitem">
+                                <BatteryCharging
+                                    className="w-[28px] h-[28px] md:w-[34px] md:h-[34px] text-primary"
+                                    aria-hidden="true"
+                                />
+                                <span className="text-sm md:text-[18px] text-black">Carregar Celular</span>
+                            </div>
+                        )}
+                    </div>
+                </aside>
+
+                <button
+                    onClick={() => setSelecionando(!selecionando)}
+                    className="rounded-full mt-3 bg-primary md:hidden text-sm cursor-pointer text-white py-[14px] px-[28px] md:text-[18px] font-medium hover:bg-primary-hover transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    aria-expanded={selecionando}
+                    aria-controls="store-selector"
+                    aria-label={selecionando ? "Fechar seletor de lojas" : "Abrir seletor de lojas"}
+                >
                     Trocar Loja
                 </button>
-            </div>
+            </header>
 
             {selecionando && (
-                <div
-                    ref={scrollRef}
-                    onPointerDown={onPointerDown}
-                    onPointerMove={onPointerMove}
-                    onPointerUp={endDrag}
-                    onPointerLeave={endDrag}
-                    className="w-full flex gap-4 bg-gray-100 px-14 overflow-x-auto overflow-y-hidden h-auto py-4 [&::-webkit-scrollbar]:hidden select-none cursor-grab active:cursor-grabbing [touch-action:pan-y]"
-                >
-                    {stores.map((store) =>
-                        <div onClick={() => { if (!dragging) setStore(store); }} className="bg-primary text-white text-sm md:text-[18px] px-[28px] py-[14px] text-nowrap rounded-full cursor-pointer transition-all  duration-300 transform hover:scale-105">
-                            {store.name}
+                <>
+                    <nav
+                        id="store-selector"
+                        className="flex w-full md:hidden gap-4 bg-gray-100 px-14 overflow-x-auto overflow-y-hidden h-auto py-4 [&::-webkit-scrollbar]:hidden "
+                        role="tablist"
+                        aria-label="Seletor de lojas"
+                        aria-describedby="store-selector-help"
+                    >
+                        <div id="store-selector-help" className="sr-only">
+                            Use as setas do teclado ou arraste para navegar entre as lojas disponíveis
                         </div>
-                    )}
-                </div>
+                        {stores.map((storeItem, index) => (
+                            <button
+                                key={storeItem.name}
+                                onClick={() => {
+                                    if (!dragging) {
+                                        setStore(storeItem);
+                                        setSelecionando(false);
+                                    }
+                                }}
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter' || e.key === ' ') {
+                                        e.preventDefault();
+                                        setStore(storeItem);
+                                        setSelecionando(false);
+                                    }
+                                }}
+                                className="bg-primary text-white text-sm md:text-[18px] px-[28px] py-[14px] text-nowrap rounded-full cursor-pointer transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+                                role="tab"
+                                aria-selected={store.name === storeItem.name}
+                                aria-controls="store-info"
+                                tabIndex={0}
+                                aria-label={`Selecionar loja ${storeItem.name}`}
+                            >
+                                {storeItem.name}
+                            </button>
+                        ))}
+                    </nav>
+
+                    <nav
+                        id="store-selector"
+                        ref={scrollRef}
+                        onPointerDown={onPointerDown}
+                        onPointerMove={onPointerMove}
+                        onPointerUp={endDrag}
+                        onPointerLeave={endDrag}
+                        className="hidden w-full md:flex gap-4 bg-gray-100 px-14 overflow-x-auto overflow-y-hidden h-auto py-4 [&::-webkit-scrollbar]:hidden select-none cursor-grab active:cursor-grabbing [touch-action:pan-y]"
+                        role="tablist"
+                        aria-label="Seletor de lojas"
+                        aria-describedby="store-selector-help"
+                    >
+                        <div id="store-selector-help" className="sr-only">
+                            Use as setas do teclado ou arraste para navegar entre as lojas disponíveis
+                        </div>
+                        {stores.map((storeItem, index) => (
+                            <button
+                                key={storeItem.name}
+                                onClick={() => {
+                                    if (!dragging) {
+                                        setStore(storeItem);
+                                        setSelecionando(false);
+                                    }
+                                }}
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter' || e.key === ' ') {
+                                        e.preventDefault();
+                                        setStore(storeItem);
+                                        setSelecionando(false);
+                                    }
+                                }}
+                                className="bg-primary text-white text-sm md:text-[18px] px-[28px] py-[14px] text-nowrap rounded-full cursor-pointer transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+                                role="tab"
+                                aria-selected={store.name === storeItem.name}
+                                aria-controls="store-info"
+                                tabIndex={0}
+                                aria-label={`Selecionar loja ${storeItem.name}`}
+                            >
+                                {storeItem.name}
+                            </button>
+                        ))}
+                    </nav>
+                </>
             )}
-            {store.iframe}
-        </div>
-    </>
+
+            <main
+                id="store-info"
+                role="main"
+                aria-label={`Mapa da loja ${store.name}`}
+                aria-live="polite"
+            >
+                {store.iframe}
+            </main>
+        </section>
+    );
 }

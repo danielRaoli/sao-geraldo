@@ -1,0 +1,69 @@
+
+import EventCardsWrapper from "@/app/_components/wrapper-event-cards";
+import { Card } from "@/components/ui/card";
+import Image from "next/image";
+
+const events = [
+    {
+        title: "Aniversário Super São Geraldo",
+        description: "Comemoração dos anos de fundação da rede, trazendo ofertas especiais, sorteios e ações de agradecimento à comunidade.",
+        image: "/aniversario.webp",
+    },
+    {
+        title: "Feirinha de Adoção de Animais",
+        description: "Evento voltado para a causa animal, realizado em parceria com protetores independentes e ONGs.",
+        image: "/doação.webp",
+    },
+    {
+        title: "Páscoa e Semana Santa",
+        description: "Campanhas temáticas com foco no simbolismo cristão da data, além de ofertas em produtos típicos e decoração especial nas lojas.",
+        image: "/pascoa.webp",
+    },
+    {
+        title: "Dia das Crianças",
+        description: "Atividades recreativas, distribuição de brindes, ações sociais e programação especial em bairros que temos lojas para celebrar a infância com alegria e cuidado.",
+        image: "/dia-das-kids.webp",
+    },
+    {
+        title: "Natal Solidário",
+        description: "Campanha social que arrecada alimentos e presentes para famílias em situação de vulnerabilidade, reforçando o espírito natalino de solidariedade e fé.",
+        image: "/natal.webp",
+    },
+    {
+        title: "Festa Junina / São João no São Geraldo",
+        description: "Evento que celebra a tradição nordestina com decoração típica, promoções e ações culturais voltadas à comunidade.",
+        image: "/junino.webp",
+    },
+]
+
+export default function EventsSection() {
+    return <>
+        <section id="events" aria-labelledby="events-heading" role="region" className="w-full space-y-6 px-4 md:px-42 py-20 ">
+            {/* Skip link para pular direto para a lista de eventos */}
+            <a href="#events-list" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded z-50">
+                Pular para lista de eventos
+            </a>
+            <h1 id="events-heading" className="text-3xl md:text-[48px] bg-gradient-to-r text-center font-bold to-[#F08B26] from-[#EB6128] bg-clip-text text-transparent">Nossos Eventos</h1>
+            <Card role="article" aria-labelledby="corrida-title" aria-describedby="corrida-desc" className="w-full rounded-[30px] p-0 h-auto group transition-all duration-800">
+                <Image
+                    src="/corrida.webp"
+                    alt="Eventos"
+                    className="w-full rounded-t-[30px] h-[300px] object-cover"
+                    sizes="100vw"
+                    height={0}
+                    width={0}
+                    priority
+                />
+                <div className="px-8 pb-4 ">
+                    <h2 id="corrida-title" className="md:text-black text-primary text-xl md:text-2xl font-semibold group-hover:text-primary transition-all duration-300">Corrida Super São Geraldo</h2>
+                    <p id="corrida-desc" className="text-xs md:text-lg">Comemoração dos anos de fundação da rede, trazendo ofertas especiais, sorteios e ações de agradecimento à comunidade.</p>
+                    <div className="h-1 w-full md:hidden group-hover:block bg-secondary rounded-full mt-6 transition-all duration-800"></div>
+                </div>
+            </Card>
+
+            <EventCardsWrapper events={events} />
+
+        </section>
+
+    </>
+}

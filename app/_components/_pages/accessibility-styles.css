@@ -1,0 +1,91 @@
+/* Estilos de acessibilidade para o componente app-super */
+
+/* Skip links - visíveis apenas quando focados */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background: #3B82F6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Indicadores de foco melhorados */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Melhorias para alto contraste */
+@media (prefers-contrast: high) {
+  .bg-gradient-to-r {
+    background: #084A96 !important;
+    color: white !important;
+  }
+  
+  .text-black {
+    color: #000000 !important;
+  }
+  
+  .bg-blue-600 {
+    background-color: #1E40AF !important;
+  }
+  
+  .text-white {
+    color: #FFFFFF !important;
+  }
+}
+
+/* Animações respeitando preferências de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Estilos para modo escuro */
+@media (prefers-color-scheme: dark) {
+  .text-black {
+    color: #FFFFFF;
+  }
+}
+
+/* Melhorias para navegação por teclado */
+[role="button"]:focus,
+[role="link"]:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Melhorias para textos pequenos em dispositivos móveis */
+@media (max-width: 768px) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+  }
+  
+  p, span, div {
+    line-height: 1.5;
+  }
+}

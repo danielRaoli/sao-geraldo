@@ -39,7 +39,7 @@ export default function FormSection() {
     }
 
     return (
-        <section id="forms" className="w-full px-6 py-20">
+        <section id="forms" className="w-full px-6 py-6 md:py-20">
             <div className="w-full text-center mb-8">
                 <h4 className="text-3xl md:text-[48px] bg-gradient-to-r text-center font-bold to-[#F08B26] from-[#EB6128] bg-clip-text text-transparent">Fale Conosco</h4>
                 <p className="text-lg md:text-[24px] text-black max-w-4xl mx-auto">

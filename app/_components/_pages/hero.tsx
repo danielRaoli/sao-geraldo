@@ -49,7 +49,7 @@ export default function Hero() {
   }, [])
 
   return <>
-    <main id="home" className="flex  h-[100vh] relative flex-col md:gap-[32px] row-start-2 items-center sm:items-start overflow-hidden">
+    <main id="home" className="flex  md:h-[100vh] relative flex-col md:gap-[32px] row-start-2 items-center sm:items-start overflow-hidden">
       <header className="w-full z-1 flex flex-col justify-center items-center bg-[#1E3A80] md:hidden h-auto ">
         <div className="w-full flex  h-[85px] relative" >
           <Image

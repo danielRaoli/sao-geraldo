@@ -136,7 +136,7 @@ body {
   }
   
   body {
-    @apply bg-background text-primary;
+    @apply bg-background overflow-x-hidden text-primary;
     
   }
 
@@ -164,7 +164,7 @@ body {
   transform: translateY(-24px);
 }
 .reveal.fade-left {
-  transform: translateX(80px);
+  transform: translateX(-24px);
 }
 .reveal.fade-right {
   transform: translateX(-24px);

@@ -3,6 +3,7 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
+import Reveal from "./reveal"
 
 type EventItem = {
   title: string
@@ -56,36 +57,39 @@ export default function EventCardsWrapper({ events }: { events: EventItem[] }) {
       </div>
 
       {/* Desktop: Grid with 3 columns, no carousel */}
-      <div className="hidden md:grid grid-cols-1 md:grid-cols-3 gap-6" role="list" aria-label="Lista de eventos">
+      <div className="hidden md:grid grid-cols-1 md:grid-cols-2  gap-6" role="list" aria-label="Lista de eventos">
         {events.map((event, idx) => (
-          <Card
-            key={idx}
-            role="listitem"
-            aria-labelledby={`event-title-${idx}`}
-            aria-describedby={`event-desc-${idx}`}
-            className="w-full rounded-[30px] p-0 h-auto group transition-all duration-800"
-          >
-            <Image
-              src={event.image}
-              alt={event.title}
-              className="w-full rounded-t-[30px] h-[300px] object-cover"
-              sizes="(min-width: 768px) 33vw, 100vw"
-              height={0}
-              width={0}
-            />
-            <div className="px-8 pb-4">
-              <h2
-                id={`event-title-${idx}`}
-                className="text-black text-2xl font-semibold group-hover:text-primary transition-all duration-300"
-              >
-                {event.title}
-              </h2>
-              <p id={`event-desc-${idx}`} className="text-lg">
-                {event.description}
-              </p>
-              <div className="h-1 w-full hidden group-hover:block bg-secondary rounded-full mt-6 transition-all duration-800" />
-            </div>
-          </Card>
+          <Reveal>
+            <Card
+              key={idx}
+              role="listitem"
+              aria-labelledby={`event-title-${idx}`}
+              aria-describedby={`event-desc-${idx}`}
+              className="w-full rounded-[30px] p-0 h-auto group transition-all duration-800"
+            >
+              <Image
+                src={event.image}
+                alt={event.title}
+                className="w-full rounded-t-[30px] h-[300px] object-cover"
+                sizes="(min-width: 768px) 33vw, 100vw"
+                height={0}
+                width={0}
+              />
+              <div className="px-8 pb-4">
+                <h2
+                  id={`event-title-${idx}`}
+                  className="text-black text-2xl font-semibold group-hover:text-primary transition-all duration-300"
+                >
+                  {event.title}
+                </h2>
+                <p id={`event-desc-${idx}`} className="text-lg">
+                  {event.description}
+                </p>
+                <div className="h-1 w-full hidden group-hover:block bg-secondary rounded-full mt-6 transition-all duration-800" />
+              </div>
+            </Card>
+          </Reveal>
+
         ))}
       </div>
     </div>

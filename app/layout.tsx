@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import {  Poppins } from "next/font/google";
+import {  Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import StructuredData from "./_components/structured-data";
 
-const poppins = Poppins({
-  variable: "--font-poppins", 
+const montserrat = Montserrat({
+  variable: "--font-montserrat",  
   subsets: ["latin"],
   weight:["400","500","600","700"],
 });
 
-const poppinsMono = Poppins({
-  variable: "--font-poppins-mono",
+const montserratMono = Montserrat({
+  variable: "--font-montserrat-mono",
   subsets: ["latin"],
   weight:["400","500","600","700"],
 });
@@ -71,7 +71,7 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body
-        className={`${poppins.variable} ${poppinsMono.variable} bg-white antialiased w-screen h-[100vh]`}
+        className={`${montserrat.variable} ${montserratMono.variable} bg-white antialiased w-screen h-[100vh]`}
       >
         {children}
       </body>

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 
 const links = [
   {
-    name: "Home",
+    name: "Início",
     href: "#home",
   },
   {
@@ -12,16 +12,16 @@ const links = [
     href: "#nossa-historia",
   },
   {
-    name: "Club",
+    name: "Descontos",
     href: "#club",
   },
   {
     name: "Trabalhe Conosco",
     href: "#forms",
   },
-  {
-    name: "Eventos",
-    href: "#events",
+    {
+    name: "Contato",
+    href: "#forms",
   },
 
 ];
@@ -49,7 +49,7 @@ export default function Hero() {
   }, [])
 
   return <>
-    <main id="home" className="flex relative flex-col md:gap-[32px] row-start-2 items-center sm:items-start overflow-hidden">
+    <main id="home" className="flex  h-[100vh] relative flex-col md:gap-[32px] row-start-2 items-center sm:items-start overflow-hidden">
       <header className="w-full z-1 flex flex-col justify-center items-center bg-[#1E3A80] md:hidden h-auto ">
         <div className="w-full flex  h-[85px] relative" >
           <Image
@@ -90,15 +90,15 @@ export default function Hero() {
         sizes="100vw"
         priority
       />
-      <div className="hidden md:block w-[350px] absolute z-1 bottom-25 mx-24 xl:mx-42">
-        <h1 className="text-secondary left-12 text-[51px] leading-[52px] letter-spacing-[0.5px] font-bold">TRADIÇÃO <br />e ORGULHO</h1>
-        <p className="text-secondary  left-12 text-[29px]  -letter-spacing-[0.5px] font-bold">Do Sertão Central</p>
-        <p className="text-white mt-6 mb-8 font-medium left-12 text-[20px]  leading-[24px] -letter-spacing-[0.5px] ">Há mais de <span className="font-bold">64 anos</span> presente na vida das famílias, oferecendo <span className="font-bold">qualidade, preço justo e proximidade com você.</span> </p>
+      <div className="hidden md:block w-[350px] absolute z-1 bottom-9 mx-24 xl:mx-32">
+        <h1 className=" bg-gradient-to-r from-[#F08B26] to-[#EB6128] bg-clip-text text-transparent left-12 text-[40px] 3xl:text-[51px] leading-[41px] 3xl:leading-[52px] letter-spacing-[0.5px] font-bold">TRADIÇÃO <br />e ORGULHO</h1>
+        <p className="text-secondary  left-12 text-[25px]  -letter-spacing-[0.5px] font-bold">Do Sertão Central</p>
+        <p className="text-white mt-2 mb-6 font-medium left-12 text-[20px]  leading-[24px] -letter-spacing-[0.5px] ">Há mais de <span className="font-bold">64 anos</span> presente na vida das famílias, oferecendo <span className="font-bold">qualidade, preço justo e proximidade com você.</span> </p>
         <a href="#app-super" className="bg-[#F28E28] text-white rounded-full px-4 py-2 font-semibold">BAIXE NOSSO APP</a>
       </div>
 
       <header className="w-full fixed hidden md:block  h-[auto] px-42 z-1 py-8">
-        <nav className="w-full h-full flex items-start py-[8px] justify-between" role="navigation" aria-label="Menu principal desktop">
+        <nav className="w-full h-full flex items-center py-[8px] justify-between" role="navigation" aria-label="Menu principal desktop">
           <div className="w-[179px] ">
             <Image
               src="/logo-azul.webp"

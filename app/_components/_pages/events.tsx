@@ -25,6 +25,16 @@ const events = [
         description: "Evento que celebra a tradição nordestina com decoração típica, promoções e ações culturais voltadas à comunidade.",
         image: "/junina.webp",
     },
+        {
+        title: "Corrida Super São Geraldo",
+        description: "Atividade esportiva que promove saúde, integração e bem-estar incentivando bons hábitos para comunidade.",
+        image: "/corrida.webp",
+    },
+            {
+        title: "Expor Saúde",
+        description: "A expor saúde é uma ação realizada na loja Campo Novo, em parceria com profissionais da Saúde, com foco em promover bem estar e qualidade",
+        image: "/exposaude.webp",
+    },
 ]
 
 export default function EventsSection() {

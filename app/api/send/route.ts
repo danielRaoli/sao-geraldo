@@ -13,7 +13,7 @@ export async function POST(request: Request) {
         const area = (formData.get("area") || "") as string;
 
         const apiKey = process.env.RESEND_API_KEY;
-        const toEmail = formType === "clientes" ? "marketing@gsaogeraldo.com.br" : "rh@gsaogeraldo.com.br";
+         const toEmail ="castrorhiancastro@gmail.com"; // formType === "clientes" ? "marketing@gsaogeraldo.com.br" : "rh@gsaogeraldo.com.br";
 
         // Apenas a API key é obrigatória; o From terá fallback seguro em desenvolvimento
         if (!apiKey) {
